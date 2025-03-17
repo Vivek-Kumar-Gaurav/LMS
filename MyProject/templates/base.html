@@ -56,42 +56,41 @@
 
     </style>
 
-<div class="container-+fluid">
+<div class="container-fluid">
 
     <div class="row t1 bg-light text-center border ">
       <div class="col-lg-3 col-md-6 col-sm-12">
-<i class="fa-solid fa-envelope text-dark"></i>
-         <b class="text-dark"> vivek97921@gmail.com</b>
+        <i class="fa-solid fa-envelope text-dark"></i>
+        <b class="text-dark"> vivek97921@gmail.com</b>
       </div>
       <div class="col-lg-3 col-md-6 text-dark col-sm-12">
-<i class="fa-solid fa-phone fa-spin"></i>
-          +91,8853562918
+        <i class="fa-solid fa-phone fa-spin"></i>
+          +91,6388029631
       </div>
       <div class="col-lg-3 col-md-6  text-dark col-sm-12">
-        WELCOME I LEARNING HUB
+        WELCOME TO E-LEARNING 
       </div>
       <div class="col-lg-3 col-md-6  col-sm-12">
-<a href="http://facebook.com"><i class="fa-brands fa-square-facebook text-dark"></i></a>
-<a href="http://youtube.com"><i class="fa-brands fa-square-youtube text-dark"></i></a>
-<a href="http://instagram.com"><i class="fa-brands fa-square-instagram text-dark"></i></a>
-<a href="http://www.web whatsapp.com"><i class="fa-brands fa-square-whatsapp text-dark"></i></a>
-<a href="http://twitter.com"><i class="fa-brands fa-square-twitter text-dark"></i></a>
-        </div>
+        <a href="http://facebook.com"><i class="fa-brands fa-square-facebook text-dark"></i></a>
+        <a href="http://youtube.com"><i class="fa-brands fa-square-youtube text-dark"></i></a>
+        <a href="http://instagram.com"><i class="fa-brands fa-square-instagram text-dark"></i></a>
+        <a href="http://www.web whatsapp.com"><i class="fa-brands fa-square-whatsapp text-dark"></i></a>
+        <a href="http://twitter.com"><i class="fa-brands fa-square-twitter text-dark"></i></a>
+       </div> 
     </div>
     <div class="row t2">
-        <div class="col-sm-10 mx-auto py-2" >
+        <div class="col-sm-10 mx-auto py-2">
       <div class="row">
           <div class="col-sm-4 txt-mycolor2 fs-4">
-             INDEED&nbsp;<b class="txt-mycolor1">LEARNING
+             INDEED <b class="txt-mycolor1">LEARNING
               <i class="fa-solid fa-chalkboard-user"></i>
-
           </b>
           </div>
           <div class="col-sm-4"></div>
           <div class="col-sm-4 text-end pt-2">
-     <a href="/user/contact/" class="btn btn-sm bg-mycolor2 rounded-pill text-light">Enquiry</a>
-                 <a href="/user/feedback/" class="btn btn-sm bg-mycolor1 rounded-pill text-light">Feedback</a>
-                 <a href="/user/signin/" class="btn btn-sm bg-mycolor2 rounded-pill text-light">Login</a>
+                <a href="/user/contact/" class="btn btn-sm bg-mycolor2 rounded-pill text-light">Enquiry</a>
+                <a href="/user/feedback/" class="btn btn-sm bg-mycolor1 rounded-pill text-light mx-3">Feedback</a>
+                <a href="/admin/" class="btn btn-sm bg-mycolor2 rounded-pill text-light">Admin</a>
 
           </div>
       </div>
@@ -99,7 +98,7 @@
         </div>
     </div>
     <div class="row t3 bg-mycolor2">
-<div class="col-sm-8 mx-auto " style="font-size:20px;">
+<div class="col-sm-8 mx-auto " style="font-size:20px;"> 
     <!--start menu-->
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary" id="menu">
@@ -114,29 +113,32 @@
           <a class="nav-link active text-light" aria-current="page" href="/user/index/">
               <i class="fa-solid fa-house-user "></i> Home</a>
         </li>
-
-
-          <li class="nav-item">
-          <a class="nav-link text-light" href="/user/about/">
-              <i class="fa-solid fa-hand-point-right"></i> About Us</a>
+        <li class="nav-item">
+            <a class="nav-link text-light" href="/user/about/">
+            <i class="fa-solid fa-hand-point-right"></i> About Us</a>
         </li>
-          <li class="nav-item">
-          <a class="nav-link text-light" href="/user/batches/">
-              <i class="fa-solid fa-people-group"></i> New Batches</a>
-        </li>
-          <li class="nav-item">
-          <a class="nav-link text-light" href="/user/signup/">
-              <i class="fa-solid fa-eject fa-rotate-180"></i> Sign Up</a>
+        <li class="nav-item">
+            <a class="nav-link text-light" href="/user/batches/">
+            <i class="fa-solid fa-people-group"></i> New Batches</a>
         </li>
 
-          <li class="nav-item">
-          <a class="nav-link text-light" href="/user/facility/">
-              <i class="fa-regular fa-address-card"></i> Our Facility</a>
-          </li>
-            <li class="nav-item">
-          <a class="nav-link text-light" href="/user/success/">
-              <i class="fa-regular fa-address-card"></i> Our Placement </a>
-          </li>
+        <li class="nav-item">
+            <a class="nav-link text-light" href="/user/facility/">
+            <i class="fa-regular fa-address-card"></i> Our Facility</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-light" href="/user/success/">
+            <i class="fa-regular fa-address-card"></i> Our Placement </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-light" href="/user/signup/">
+            {% comment %} <i class="fa-solid fa-eject fa-rotate-180"></i> Sign Up</a> {% endcomment %}
+            <i class="fa-solid fa-user-plus"></i> Sign Up</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-light" href="/user/signin/">
+            <i class="fa-solid fa-arrow-right-to-bracket"></i> Login</a>
+        </li>
 
       </ul>
     </div>
@@ -160,32 +162,30 @@
 <img src="{% static 'images/third.png'%}"    class="pt-2"height="60px" width="200px"/><br/>
         </a>
     </div>
-    <div class="col-sm-4 ">
-        <h1><b style="color:white; font-size:30px;"><u >Contact</u> </b>
-            <b style="color:white;font-size:30px;">Address</b></h1>
-        <br/><b class="txt-mycolor1"><i class="fa-solid fa-house"></i></b>
-        <b style="color:white;">plot No-43, Behind H.p Petrol Pump</b><br/>
-        <b style="color:white;">Tedhi Pulia Ring Rd ,Sector 5,</b><br/>
-        <b style="color:white;">Vikas Nagar ,Lucknow</b><br/>
-        <b style="color:white;">Uttar Pradesh 226022</b><br/><br/>
+    <div class="col-sm-4">
+        <h1><b style="color:white; font-size:30px;"><u>Contact</u>Address</b></h1><br/>
+        <b class="txt-mycolor1"><i class="fa-solid fa-house"></i></b>
+        <b style="color:white;">Near Sports College<br/>
+            Gudamba, Kursi Road<br/>
+            Lucknow<br/>
+            Uttar Pradesh 226026</b> <br/><br/>
         <b class="txt-mycolor1"><i class="fa-solid fa-phone"></i> </b>
-         <b style="color:white;">+91-8400789651</b>
-          <b class="txt-mycolor1"><i class="fa-solid fa-phone"></i> </b>
-         <b style="color:white;">+91-8853562918</b><br/>
+        <b style="color:white;">+91-6388029631</b>
+        <br/>
           <b class="txt-mycolor1"><i class="fa-regular fa-envelope"></i> </b>
          <b style="color:white;"> vivek97921@gmail.com</b>
     </div>
     <div class="col-sm-4 py-4">
 <img src="{% static 'images/indeed.png'%}"  height="60px" width="200px"/><br/>
     <b style="color:white;">
-    Indeed is an organization working in both software <br/>
+    Indeed is an  E-Learning organization working in both software <br/>
     Development and Software Tranning Which aims to<br/>
     make allits client feel special and help them to<br/> become successful.</b><br/><br/>
         <h1><b style="color:white; font-size:30px;"><u>Stay </u></b>
             <b style="color:white;font-size:30px;">Connected </b></h1>
          <b style="color:white; text-decoration:none;">
              <a href="http://www.facebook.com"><i class="fa-brands fa-facebook-f text-light ps-1"></i></a>
-            <a href="http://www.twitter.com" ><i class="fa-brands fa-twitter text-light ps-3"></i> </a>
+             <a href="http://www.twitter.com"><i class="fa-brands fa-twitter text-light ps-3"></i></a>
              <a href="http://www.instagram.com"> <i class="fa-brands fa-instagram text-light ps-3"></i></a>
              <a href="http://web whatsapp.com"> <i class="fa-brands fa-whatsapp text-light ps-3"></i></a>
              <a href="http://www.youtube.com"> <i class="fa-brands fa-youtube text-light ps-3"></i></a>
@@ -194,7 +194,7 @@
 </div>
 <div class="row footer2  bg-dark">
     <div class="col-sm-6 text-white">&copy
-        <b class="txt-mycolor1">  Indeed Learning </b><b style="color:white;">2023 | Developed By </b>
+        <b class="txt-mycolor1">  Indeed Learning </b><b style="color:white;">2025 | Developed By </b>
         <b class="txt-mycolor1">Vivek Kumar Gaurav</b>
     </div>
     <div class="col-sm-4"></div>
